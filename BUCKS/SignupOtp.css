@@ -1,0 +1,39 @@
+.second{  
+    border-top-left-radius: 80px;
+    text-align: center;
+    color: white;
+    
+
+}
+.yellow-text{
+    color:#FAFF10;
+    
+}
+.bt{
+    color: black;font-size: large;
+    font-style: bold; font-weight: 500;
+    
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .img-fluid {
+    width: 100%;
+  }
+  .second {
+    padding: 20px;
+  }
+  .footer-image-container {
+    max-width: 100%;
+    overflow: hidden; /* Ensures the image doesn't overflow the container */
+  }
+  .footer-image {
+    width: 100%; /* Ensures the image fills its container */
+    display: block; /* Removes any residual space below the image */
+  }
+}
+
+
+
+  

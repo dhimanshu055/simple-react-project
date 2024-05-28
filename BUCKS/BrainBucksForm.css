@@ -1,0 +1,79 @@
+.second{  
+    border-top-left-radius: 80px;
+    text-align: center;
+    color: white;
+    
+
+}
+.yellow-text{
+    color:#FAFF10;
+    
+}
+.bt{
+    color: black;font-size: large;
+    font-style: bold; font-weight: 500;
+    
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .img-fluid {
+    width: 100%;
+  }
+  .second {
+    padding: 20px;
+  }
+  .footer-image-container {
+    max-width: 100%;
+    overflow: hidden; /* Ensures the image doesn't overflow the container */
+  }
+  .footer-image {
+    width: 100%; /* Ensures the image fills its container */
+    display: block; /* Removes any residual space below the image */
+  }
+}
+
+.custom-checkbox {
+  width: 50px;
+  height: 50px;
+  background-color: #A269EB;
+  border: 2px solid #A269EB;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.custom-checkbox:checked {
+  background-color: #A269EB;
+}
+
+.custom-checkbox:checked::before {
+  content: '\2713';
+  position: absolute;
+  left: 5px;
+  top: -10px;
+  font-size: 50px;
+  color: white;
+}
+
+.custom-label {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+.yellow-text {
+  color: #A269EB;
+  font-weight: bold;
+}
+
+.terms {
+  color: #A269EB;
+  text-decoration: underline;
+  cursor: pointer;
+}

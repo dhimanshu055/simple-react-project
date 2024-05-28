@@ -1,0 +1,37 @@
+.textColor {
+    color: #8A8C94;
+  }
+  .hrp{
+    width: 70px;
+    float: right;
+    margin-top: 20%;
+    
+  }
+
+  .txt {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #701DDB;
+    position: relative; 
+    color:white;
+    font-size: xx-large;
+    font-weight: 700;
+  }
+  
+  .jpp {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+  }
+  
+  .img-fluid {
+    max-width: 50%;
+    height: auto;
+  }
+
+
+
+  

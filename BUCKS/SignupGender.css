@@ -1,0 +1,77 @@
+.Txt{ 
+    background-color:#701DDB ;
+    
+    color: aliceblue;
+    
+    
+
+
+}
+.rb{
+    background-color: #701DDB;
+    color: white;
+    border: 2px #FFFFFF1A;
+    border-radius:50%;  
+}
+
+
+.contain{
+    background: url(../Img/Head.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    justify-content: center;
+    align-items: center;    
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+
+}
+
+.down{
+   text-align: center;
+   color: #8A8C94;
+}
+
+@media (min-width: 780px) {
+    .contain{
+        background: url(../Img/Head.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 25vh;
+    }
+    .img-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+}
+.bt{
+    background-color: #701DDB;
+    color: #FFFFFF;
+    width: 200px;
+    
+    
+    
+}
+
+
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  margin: 10px 0; /* Adjust spacing between image and text */
+}
+
+.img img {
+  max-width: 100%; /* Ensure images don't exceed container width */
+}
+
+  
